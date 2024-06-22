@@ -1,0 +1,214 @@
+{
+  "states": [
+    {
+      "id": 1,
+      "type": "action",
+      "content": "Before taking any troubleshooting steps, download the AHS log using the AHSV and download the OS logs.",
+      "next": 2
+    },
+    {
+      "id": 2,
+      "type": "question",
+      "content": "Is the system responding?",
+      "yes": 3,
+      "no": 6
+    },
+    {
+      "id": 3,
+      "type": "action",
+      "content": "Go to POST issues flowchart"
+    },
+    {
+      "id": 4,
+      "type": "action",
+      "content": "Reseat any components that may have come loose during shipping and reboot the server.",
+      "next": 10
+    },
+    {
+      "id": 5,
+      "type": "question",
+      "content": "Has the server worked previously?",
+      "yes": 9,
+      "no": 7
+    },
+    {
+      "id": 6,
+      "type": "question",
+      "content": "Is this a newly installed server?",
+      "yes": 4,
+      "no": 5
+    },
+    {
+      "id": 7,
+      "type": "action",
+      "content": "Reseat any components that may have come loose during shipping and reboot the server.",
+      "next": 8
+    },
+    {
+      "id": 8,
+      "type": "action",
+      "content": "Restore default system settings in UEFI System Utilities.",
+      "next": 32
+    },
+    {
+      "id": 9,
+      "type": "question",
+      "content": "Were options added or was the configuration changed?",
+      "yes": 12,
+      "no": 13
+    },
+    {
+      "id": 10,
+      "type": "question",
+      "content": "Does the issue still exist?",
+      "yes": 9,
+      "no": 15
+    },
+    {
+      "id": 11,
+      "type": "question",
+      "content": "Does the issue still exist?",
+      "yes": 23,
+      "no": 15
+    },
+    {
+      "id": 12,
+      "type": "action",
+      "content": "Isolate what was changed. Verify it was installed correctly.",
+      "next": 16
+    },
+    {
+      "id": 13,
+      "type": "action",
+      "content": "Check for Service Notifications.",
+      "next": 18
+    },
+    {
+      "id": 14,
+      "type": "action",
+      "content": "Review the IML and server LEDs for errors.",
+      "next": 20
+    },
+    {
+      "id": 15,
+      "type": "action",
+      "content": "Record action taken.",
+      "next": 34
+    },
+    {
+      "id": 16,
+      "type": "action",
+      "content": "Restore server to the last known working state or original shipped configuration.",
+      "next": 11
+    },
+    {
+      "id": 17,
+      "type": "question",
+      "content": "Does the issue still exist?",
+      "yes": 25,
+      "no": 26
+    },
+    {
+      "id": 18,
+      "type": "action",
+      "content": "Download the latest software and firmware.",
+      "next": 11
+    },
+    {
+      "id": 19,
+      "type": "question",
+      "content": "Is the server receiving power?",
+      "yes": 29,
+      "no": 22
+    },
+    {
+      "id": 20,
+      "type": "question",
+      "content": "Does the issue still exist?",
+      "yes": 19,
+      "no": 34
+    },
+    {
+      "id": 21,
+      "type": "action",
+      "content": "Create and submit a support case using HPESC.",
+      "next": 33
+    },
+    {
+      "id": 22,
+      "type": "action",
+      "content": "Go to Power-on issues or POST issues flowcharts."
+    },
+    {
+      "id": 23,
+      "type": "action",
+      "content": "Break server down to the minimal configuration.",
+      "next": 17
+    },
+    {
+      "id": 24,
+      "type": "question",
+      "content": "Does the issue still exist?",
+      "yes": 21,
+      "no": 15
+    },
+    {
+      "id": 25,
+      "type": "action",
+      "content": "Troubleshoot or replace basic server spare parts.",
+      "next": 27
+    },
+    {
+      "id": 26,
+      "type": "action",
+      "content": "Add one part at a time back to configuration to isolate faulty component.",
+      "next": 24
+    },
+    {
+      "id": 27,
+      "type": "question",
+      "content": "Does the issue still exist?",
+      "yes": 21,
+      "no": 28
+    },
+    {
+      "id": 28,
+      "type": "action",
+      "content": "Record symptom and error information on the repair tag if sending back a failed part."
+    },
+    {
+      "id": 29,
+      "type": "question",
+      "content": "Are POST error messages displayed?",
+      "yes": 30,
+      "no": 31
+    },
+    {
+      "id": 30,
+      "type": "action",
+      "content": "Go to POST issues flowchart."
+    },
+    {
+      "id": 31,
+      "type": "action",
+      "content": "Go to Server fault indications flowchart."
+    },
+    {
+      "id": 32,
+      "type": "question",
+      "content": "Does the issue still exist?",
+      "yes": 14,
+      "no": 34
+    },
+    {
+      "id": 33,
+      "type": "action",
+      "content": "Contact Support"
+    },
+    {
+      "id": 34,
+      "type": "action",
+      "content": "End"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+Patient has no confusion but there is respiratory noise. What do I check for next? 20
+There is no respiratory noise in the patient but there is delayed-onset shortness of breath. What should I do? 22
+Patient has apnea and is gasping and having seizures. What should I be considering? 10
+Pateint is confused and has dry skin. What should I be considering? 19
+Patient is sedated and has miosis. What does this signify? 15
+Patient isn't gasping and doesn't have sedation. What does this mean? 6
+Canventional mechanisms of injury alone can account for observed effects. What to do next? 2
+Patient has no delayed-onset shortness of breath and has no diplopia. What does this signify? 6
+Patient has respiratory noises and doesn't have eye, throat, or skin pain. What should I consider? 22
+Patient has eye, throat pain and has skin blistering. What does this mean? 23

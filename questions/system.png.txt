@@ -1,0 +1,10 @@
+The system isn't responsing and it's a newly installed server. What should I do next?
+I've respored default system settings in UEFI System Utilities and the issue still exists. What do I do next?
+The issue still exists and I've created and submitted a support case using HPESC. WHat should I do next?
+I've reviewed the IML and server LEDs for errors and the issue doesn't exist anymore. What should I do next?
+The server isn't recieveing power and the issue stil exists. What should I do next?
+This is not a newly installed server and has worked previously. What do I check next?
+What do I do if issue still exists and the server is reciving power?
+I've added one part at a time back to configuration to isolate the faulty component. The issue doesn't exist anymore. What do I check next?
+I've isolated what was changed and verified it was installed correctly. What do I check after?
+I've troubleshooted and replaced basic server parts after the issue still existed. What do I check now?

@@ -1,0 +1,26 @@
+What do I do if my starter doesn't crank? My car doesn't work.
+What do I do if my starter doesn't spin? My starter also doesn't crank.
+What do I do if my battery reads over 12 volts? My starter doesn't spin.
+What do I do if I donot have clean terminals and my battery reads over 12V?
+My starter cranks. What do I do if the engine doesn't fire?
+My engine doesn't fire. What do I do if there's no spark to plugs?
+My engine does fire. What do I do if the engine starts and stalls?
+What do I do if I check OBD and there's no blink code after my engine starts and stalls?
+I checked OBD and blink code. What do I do if the engine stalls on key release to run?
+The car doesn't stall on key release to run. What if the engine stalls in the rain?
+What if my car stalls warm after it doesn't stall in the rain?
+What if there's no mechanical distributor after there's a spark from the coil?
+What if there is less than 12v+ at coil primary? There is no spark from the coil.
+What do I do if no fuel is injected? The fuel gets to the filter
+What do I do if no fuel gets to filter? There is a spark to the plugs.
+What do I do if the starter doesn't spin? The starter doesn't crank either.
+My car doesn't start. What should I check first?
+The starter doesn't crank, what should I check as the next?
+The start doesn't spin and battery read over 12V. What should I do as the next?
+The engine stalls in the rain after not stalling on key release to run. What to check next?
+The engine fires, but it starts and stalls. What should I do?
+There is a spark from coil and no mechanical distributor. What should I do?
+Help me fix my car. The engine stalls on key release to run.
+What do I do? There's no spark from coil in my car. There's also no spark to plugs.
+There is no stall on key release and the engine stalls in the rain. What should I do?
+The starter cranks and the engine fires. What do I do next?

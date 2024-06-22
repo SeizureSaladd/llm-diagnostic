@@ -1,0 +1,156 @@
+{
+  "states": [
+    {
+      "id": 1,
+      "type": "question",
+      "content": "Can conventional mechanisms of injury alone account for observed effects?",
+      "yes": 2,
+      "no": 3
+    },
+    {
+      "id": 2,
+      "type": "action",
+      "content": "Treat as conventional mass-casualty incident (MCI), maintain safety at the scene, remain vigilant for possible CWA or radiation"
+    },
+    {
+      "id": 3,
+      "type": "action",
+      "content": "Consider chemical-warfare agents (CWAs), maintain safety at the scene, don personal protective equipment (PPE), assess victims",
+      "next": 4
+    },
+    {
+      "id": 4,
+      "type": "question",
+      "content": "Increased secretions or muscle effects (fasciculations, weakness, paralysis), with or without miosis",
+      "yes": 9,
+      "no": 5
+    },
+    {
+      "id": 5,
+      "type": "question",
+      "content": "Bradypnea or apnea",
+      "yes": 7,
+      "no": 8
+    },
+    {
+      "id": 6,
+      "type": "question",
+      "content": "Unlikely to be CWA; reassess for conventional injuries and watch for delayed effects of CWAs"
+    },
+    {
+      "id": 7,
+      "type": "question",
+      "content": "Gasping, collapse, and seizures with or without cyanosis",
+      "yes": 10,
+      "no": 11
+    },
+    {
+      "id": 8,
+      "type": "question",
+      "content": "Confusion",
+      "yes": 16,
+      "no": 14
+    },
+    {
+      "id": 9,
+      "type": "action",
+      "content": "Assume nerve agent; administer atropine and pralidoxime, provide airway support and spot decontamination"
+    },
+    {
+      "id": 10,
+      "type": "action",
+      "content": "Consider asphyxiant; administer cyanide antidote, provide airway support and spot decontamination"
+    },
+    {
+      "id": 11,
+      "type": "question",
+      "content": "Sedation",
+      "yes": 13,
+      "no": 6
+    },
+    {
+      "id": 12,
+      "type": "action",
+      "content": "Consider anesthetic agent (manage airway if needed; if unsure, administer naloxone)"
+    },
+    {
+      "id": 13,
+      "type": "question",
+      "content": "Miosis",
+      "yes": 15,
+      "no": 12
+    },
+    {
+      "id": 14,
+      "type": "question",
+      "content": "Respiratory noise (coughing, hoarseness, stridor)",
+      "yes": 20,
+      "no": 18
+    },
+    {
+      "id": 15,
+      "type": "action",
+      "content": "Consider opioid agent; administer naloxone, provide airway support and spot decontamination"
+    },
+    {
+      "id": 16,
+      "type": "question",
+      "content": "Mydriasis, dry skin, elevated temperature",
+      "yes": 19,
+      "no": null
+    },
+    {
+      "id": 17,
+      "type": "action",
+      "content": "Consider central-compartment (large-airway) pulmonary agent"
+    },
+    {
+      "id": 18,
+      "type": "question",
+      "content": "Delayed-onset shortness of breath or chest tightness",
+      "yes": 22,
+      "no": 21
+    },
+    {
+      "id": 19,
+      "type": "action",
+      "content": "Consider anticholinergic agent"
+    },
+    {
+      "id": 20,
+      "type": "question",
+      "content": "Eye, throat, or skin pain",
+      "yes": 24,
+      "no": 22
+    },
+    {
+      "id": 21,
+      "type": "question",
+      "content": "Diplopia, descending paralysis, dysphagia, and mydriasis",
+      "yes": 25,
+      "no": 6
+    },
+    {
+      "id": 22,
+      "type": "action",
+      "content": "Consider peripheral-compartment (small-airways) pulmonary agent"
+    },
+    {
+      "id": 23,
+      "type": "action",
+      "content": "Consider vesicant, caustic or riot-control agent, or T-2 toxin"
+    },
+    {
+      "id": 24,
+      "type": "question",
+      "content": "Skin blistering",
+      "yes": 23,
+      "no": 17
+    },
+    {
+      "id": 25,
+      "type": "action",
+      "content": "Consider botulinum toxin"
+    }
+  ]
+}
