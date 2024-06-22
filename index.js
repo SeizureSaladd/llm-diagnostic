@@ -31,7 +31,6 @@ const FlowchartToJson = async(file) => {
   return JSON.parse(json);
 }
 
-//Answer questions based on the following JSON text. In your response, start the message with the specific ID you are referring to.
 let messages = [{ role: 'system', content: 'Answer questions based on the following JSON representation of a flowchart. Make sure to be careful between yes and no\'s and follow the correct ID numbers. When answering, give only the specific ID number you\'re referring to. DO NOT give the content of that item or anything else. Do not answer the question directly, only give the state ID. Do NOT use any formatting.'}];
 
 let messages2 = [{ role: 'user', content: [
